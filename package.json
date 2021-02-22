@@ -1,0 +1,30 @@
+{
+  "name": "scss-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/superstarMann/SCSS.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@babel/core": "^7.12.17",
+        "@babel/preset-env": "^7.12.17",
+        "@babel/register": "^7.12.13",
+        "del": "^6.0.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-csso": "^4.0.1",
+        "gulp-sass": "^4.1.0"
+},
+"scripts": {
+      "dev": "gulp dev"
+},
+"browserslist": {
+    "browsers": [
+      "last 2 versions"
+    ]
+}
+}
