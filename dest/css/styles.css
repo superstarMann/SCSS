@@ -1,1 +1,1 @@
-body{background:#78cd3f}body a{color:#00f}
+.box2 a,.box2 button{border-radius:7px;font-size:12px;padding:5px 10px;color:#fff;font-weight:700;background-color:peru;text-transform:uppercase}body{background:#fff}body a{color:#00f}.box button,.box h1{color:#e74c3c}.box button:hover,.box h1:hover{background-color:red}.box a:nth-child(even),.box a:nth-child(odd){text-decoration:none;font-size:3em;display:block;color:red}.box a:nth-child(even){color:#00f}.box2{margin-top:30px}.box2 a{text-decoration:none}.box2 button{border:0}
