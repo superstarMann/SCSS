@@ -1,0 +1,45 @@
+@import"_color.scss";
+@import"_minis.scss";
+@import"extend";
+body {
+    background: white;
+    a {
+      color: blue;
+    }
+  }
+
+.box{ 
+  h1{ //box 안에 있는 h1만 해당됨
+    color: $bg;
+    &:hover{
+      background-color: red;
+    }
+  }
+  button{ //box 안에 있는 button만 해당됨
+    color: $bg;
+    
+    &:hover{
+      background-color: red;
+    }
+  }
+  a{
+    &:nth-child(odd){
+      @include link(red);
+    }
+    &:nth-child(even){
+      @include link(blue);
+    }
+  }
+}
+
+.box2{
+  margin-top: 30px;
+  a {
+    @extend %button;
+    text-decoration: none;
+  }
+  button{
+    @extend %button;
+    border: none;
+  }
+}

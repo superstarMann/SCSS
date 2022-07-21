@@ -1,0 +1,6 @@
+@mixin link($color) {
+    text-decoration: none;
+    font-size: 3em;
+    display: block;
+    color: $color;
+} //mixin으로 함수형 css 제작 가능
